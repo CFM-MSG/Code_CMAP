@@ -15,14 +15,14 @@ The proposed CMAP is a novel method that leverages cross-level interaction and s
   * Loss for Matching
 
 ## Motivation
-![Motivation](fig/intro_3_00.png)
+![Motivation](fig/mot_crt_real_00.png)
 An illustrative example of the problem in learning preserved information: (a) A typical failure case of the recent state-of-the-art method ARTEMIS (Delmas et al. 2022). (b) The preserved regions learned by ARTEMIS show heavily overlapped with the modified regions.
 
 
 
 
 ## Retrieval Examples
-![Retrieval](fig/retrieval_8.16_00.png)
+![Retrieval](fig/top-6_re_crt_00.png)
 
 
 ## Data Download
@@ -32,7 +32,6 @@ The three datasets (FashionIQ, Shoes, Fashion200k) can be downloaded from the of
   * You should obtain the following vocabulary size for the different datasets:
     - FashionIQ: 3775
     - Shoes: 1330
-    - CIRR: 7101
     - Fashion200K: 4963
 * Modify the parameters in option.py
 * Run train.py (img_finetune, default=False; txt_finetune, default=False)
